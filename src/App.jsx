@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Category from './components/Category'
+import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Banner />
 
       <Category />
+      <Card />
     </>
   )
 }
