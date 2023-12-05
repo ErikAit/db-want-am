@@ -16,6 +16,26 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      <div className="footer-middle">
+        <div className="all-footer-middle-container">
+          <div className="icons">
+          <i class='bx bxl-vk'></i>
+          <i class='bx bxl-facebook'></i>
+          <i class='bx bxl-instagram-alt'></i>
+          <i class='bx bxl-telegram'></i>
+          </div>
+
+          <div className="main-img">
+            <img src="https://want.am/design/themes/wantam/media/images/logo-w.png?1701774333" alt="main" />
+          </div>
+
+          <div className="content">
+            <h2>094-092-092</h2>
+            <p>Աշխատում ենք 10:00-ից մինչեւ 18:00</p>
+          </div>
+        </div>
+      </div>
     </footer>
   )
 }
