@@ -1,5 +1,4 @@
 .main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,4 +91,20 @@
 }
 .main .card .item .heart:hover .text {
   opacity: 1;
+}
+.main .wa-container {
+  padding-top: 23px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+.main .wa-container .item .new {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  padding: 4px 5px;
+  font-size: 9px;
+  color: #FFFFFF;
+  background: rgb(14, 190, 14);
+  border-radius: 5px;
 }/*# sourceMappingURL=Card.css.map */

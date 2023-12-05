@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from './Cards.jsx'
 import '../css/Card.css'
+import Products from './Products.jsx';
 
 export default function Card() {
   let mostPopular = [
@@ -166,8 +167,16 @@ export default function Card() {
         }
       </div>
 
-      <div className="wa-container">
-        <div className="grid-list"></div>
+      <div className="title">
+        <h2>ԲՈԼՈՐ ՆՎԵՐՆԵՐԸ</h2>
+      </div>
+
+      <div className="card wa-container">
+        {
+          allProducts.map(items => {
+            return <Products src={items.img} title={items.title} price={items.price} key={items.id} />
+          })
+        }
       </div>
     </main>
   )
