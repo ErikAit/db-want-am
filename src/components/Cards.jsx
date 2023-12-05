@@ -6,7 +6,7 @@ export default function Cards(props) {
       <img src={props.src} alt="img" />
 
       <div>
-        <p className="title">{props.title}</p>
+        <p className="title">{props.title}adfasfasfasfsa</p>
         <p className="price">{props.price}asdcasdasdasd</p>
       </div>
 
