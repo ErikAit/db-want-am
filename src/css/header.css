@@ -222,4 +222,7 @@
 }
 .header .row-fluid .cont li a:hover {
   color: #FFFFFF;
+}
+.header .footer-middle .all-footer-middle-container {
+  display: flex;
 }/*# sourceMappingURL=header.css.map */

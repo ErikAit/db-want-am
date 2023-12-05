@@ -51,4 +51,7 @@
   color: #FFFFFF;
   font-weight: normal;
   font-size: 12px;
+}
+.footer .footer-middle .all-footer-middle-container {
+  display: flex;
 }/*# sourceMappingURL=footer.css.map */
