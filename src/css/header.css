@@ -20,6 +20,7 @@
   border-right: 1px solid #B3B3C0;
 }
 .header .header-top .all-header-top-container .language ul li {
+  background: #fff;
   cursor: pointer;
   position: relative;
   padding: 15px 20px 14px 0;
@@ -29,6 +30,7 @@
 }
 .header .header-top .all-header-top-container .language ul li div {
   display: none;
+  z-index: 12;
 }
 .header .header-top .all-header-top-container .language ul li:hover div {
   display: block;

@@ -21,6 +21,7 @@
 
         ul {
           li {
+            background: #fff;
             cursor: pointer;
             position: relative;
             padding: 15px 20px 14px 0;
@@ -33,6 +34,7 @@
 
             div {
               display: none;
+              z-index: 12;
             }
 
             &:hover div {
