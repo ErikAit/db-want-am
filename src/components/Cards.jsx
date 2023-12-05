@@ -1,10 +1,19 @@
 import React from 'react'
-import '../css/cards.css'
 
-export default function Cards() {
+export default function Cards(props) {
   return (
-    <div>
+    <div className='item'>
+      <img src={props.src} alt="img" />
 
+      <div>
+        <p className="title">{props.title}</p>
+        <p className="price">{props.price}</p>
+      </div>
+
+      <div className="top">TOP</div>
+      <div class='bx bx-heart heart'>
+        <div className="text">Առանձնացնել</div>
+      </div>
     </div>
   )
 }
