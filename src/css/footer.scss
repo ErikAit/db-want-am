@@ -58,4 +58,13 @@
       }
     }
   }
+
+  .footer-middle {
+    padding: 12px 3rem;
+    .all-footer-middle-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }

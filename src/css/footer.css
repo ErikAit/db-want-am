@@ -51,4 +51,12 @@
   color: #FFFFFF;
   font-weight: normal;
   font-size: 12px;
+}
+.footer .footer-middle {
+  padding: 12px 3rem;
+}
+.footer .footer-middle .all-footer-middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=footer.css.map */
