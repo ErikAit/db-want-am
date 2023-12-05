@@ -45,22 +45,13 @@
           height: 20px;
         }
 
-        label {
-          border-radius: 0 18px 18px 0;
-          position: absolute;
-          left: 100%;
-          background: #7776E5;
-          padding: 10px 15px;
-          color: #FFFFFF;
-          font-weight: normal;
-          font-size: 12px;
-        }
+       
       }
     }
   }
 
   .footer-middle {
-    padding: 12px 3rem;
+    padding: 12px 3.2rem;
     .all-footer-middle-container {
       display: flex;
       justify-content: space-between;
