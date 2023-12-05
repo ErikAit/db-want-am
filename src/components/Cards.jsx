@@ -7,7 +7,7 @@ export default function Cards(props) {
 
       <div>
         <p className="title">{props.title}</p>
-        <p className="price">{props.price}</p>
+        <p className="price">{props.price}asdcasdasdasd</p>
       </div>
 
       <div className="top">TOP</div>
